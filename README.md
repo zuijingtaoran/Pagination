@@ -2,11 +2,11 @@
 依赖于bootstrap.css ,jquery-1.1X.X.js 
 特点：封装度高 引用简单 适应性尚可
 HTML:
-···
+<code>
  <div class='container'>
    <div id="tab"></div>
    </div>
-   ···
+   <code>
 JS引用方式：
 ···
 Pagination({
