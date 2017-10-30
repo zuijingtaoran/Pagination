@@ -2,10 +2,13 @@
 依赖于bootstrap.css ,jquery-1.1X.X.js 
 特点：封装度高 引用简单 适应性尚可
 HTML:
+···
  <div class='container'>
    <div id="tab"></div>
    </div>
+   ···
 JS引用方式：
+···
 Pagination({
    'selector': '#tab',
    'json': data, //json格式                       
@@ -14,8 +17,10 @@ Pagination({
 
                         }
                     });
-                    
+   
+   ···
 方法源码：
+···
 var Pagination = function (obj) {
      /*
         depend:jquery-1.11.3.js  bootstrap.css
@@ -155,3 +160,4 @@ Pagination.prototype = {
     }
 
 }
+···
