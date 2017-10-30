@@ -6,7 +6,7 @@ HTML:
  <div class='container'>
    <div id="tab"></div>
    </div>
-  ```
+```
 JS引用方式：
 ```
 Pagination({
@@ -18,7 +18,7 @@ Pagination({
                         }
                     });
    
-  ```
+```
 方法源码：
 ```
 var Pagination = function (obj) {
